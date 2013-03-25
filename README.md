@@ -5,7 +5,7 @@ to-do list:
 
 1. 先各模块搭建在centos 6上，run起来即可 （1-2w）
  * router
- * cloud_controller
+ * cloud_controller （done）
  * dea
  * warden
  * health_manager
