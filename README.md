@@ -4,12 +4,12 @@ Docs
 to-do list:
 
 1. 先各模块搭建在centos 6上，run起来即可 （1-2w）
- * router
- * cloud_controller （done）
- * dea
- * warden
- * health_manager
- * uaa
+ * router （doing by zhaodch）
+ * <del>cloud_controller （done by limy）<del>
+ * dea   (todo by limy)
+ * <del>warden （done by limy）<del>
+ * health_manager （todo by zhaodch）
+ * uaa ( waiting )
 
 2. 联调
  * 完成注册，push发布应用等流程
