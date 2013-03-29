@@ -1,7 +1,3 @@
----
-title: install warden
----
-
 
 ## dependency
 
@@ -17,9 +13,8 @@ on centos:
     port:
       pool_start_port: 10000
       pool_size: 10000
-and you can modify other configs to your needs.
-
-
+      
+you can modify other configs to your needs.
 
 
 ## setup
@@ -34,5 +29,3 @@ and you can modify other configs to your needs.
 
     sudo env PATH=$PATH:. bundel exec rake warden:start[config/linux.yml]
 
-
----
