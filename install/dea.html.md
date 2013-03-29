@@ -1,6 +1,3 @@
----
-title: install dea
----
 
 ## dependency
 
@@ -13,7 +10,6 @@ on centos 6:
     git clone
     cd dea_ng
     bundle install
-    bundle exec bin/dea config/dea.yml # no '-c' like other component
-
-
----
+    
+    # do NOT add '-c' like other component
+    bundle exec bin/dea config/dea.yml 
