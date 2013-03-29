@@ -1,10 +1,10 @@
-
 ## dependency
 
 on centos:
 
     sudo yum groupinstall "Development Tools"
     sudo yum install quota
+    sudo yum install glibc-static
 
 ## config notes
 
