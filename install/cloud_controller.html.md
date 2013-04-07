@@ -16,9 +16,10 @@ cloud_controller needs a database, so you'd better setup a mysql server at first
     git clone
     git submodule update --recursive --init
     cd cloud_controller_ng
+    bundle install
     bundle exec rake db:migrate
     
     # if this is the first time  you run the cloud_controller, 
     # please add -m parameter to insert some necessery start data
-    bundle exec bin/cloud_controller -c cloud_controller 
+    bundle exec bin/cloud_controller -c cloud_controller [-m]
 
