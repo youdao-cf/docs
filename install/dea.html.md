@@ -1,9 +1,11 @@
-
 ## dependency
 
 on centos 6:
 
     sudo yum install curl libcurl libcurl-devel
+
+## config note
+    domain: vcap.me
 
 ## setup & start
 
