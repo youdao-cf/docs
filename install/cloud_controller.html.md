@@ -2,11 +2,12 @@
 
 cloud_controller needs a database, so you'd better setup a mysql server at first. sqlite also work while developing.
 
-    $ curl -O http://www6.atomicorp.com/channels/atomic/centos/6/x86_64/RPMS/atomic-release-1.0-14.el6.art.noarch.rpm
-    $ sudo  rpm -Uvh atomic-release-1.0-14.el6.art.noarch.rpm
-    $ rvm reinstall/install 1.9.3 --autolibs=3
+    $ sudo yum  install mysql-devel
+    $ sudo yum install postgresql-devel
+    $ sudo yum install sqlite-devel
+    
 
-
+    
 
 ## config note
 
