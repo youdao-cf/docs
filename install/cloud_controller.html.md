@@ -2,6 +2,13 @@
 
 cloud_controller needs a database, so you'd better setup a mysql server at first. sqlite also work while developing.
 
+    $ wget http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
+    $ tar xzvf yaml-0.1.4.tar.gz
+    $ cd yaml-0.1.4
+    $ ./configure --prefix=/usr/local
+    $ make
+    $ make install
+
 
 ## config note
 
