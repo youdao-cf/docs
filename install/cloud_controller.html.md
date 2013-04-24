@@ -2,12 +2,10 @@
 
 cloud_controller needs a database, so you'd better setup a mysql server at first. sqlite also work while developing.
 
-    $ wget http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
-    $ tar xzvf yaml-0.1.4.tar.gz
-    $ cd yaml-0.1.4
-    $ ./configure --prefix=/usr/local
-    $ make
-    $ make install
+    $ curl -O http://www6.atomicorp.com/channels/atomic/centos/6/x86_64/RPMS/atomic-release-1.0-14.el6.art.noarch.rpm
+    $ sudo  rpm -Uvh atomic-release-1.0-14.el6.art.noarch.rpm
+    $ rvm reinstall/install 1.9.3 --autolibs=3
+
 
 
 ## config note
