@@ -5,6 +5,7 @@ on centos 6:
     sudo yum install curl libcurl libcurl-devel
 
 ## config note
+    # for upload url in staging ， is this value is missing , error will be reported.
     domain: vcap.me
 
 ## setup & start
