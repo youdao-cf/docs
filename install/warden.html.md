@@ -27,7 +27,7 @@ you can modify other configs to your needs.
 
 when the above steps are all done,
 
-“mkdir app” in the path stated in server::container_rootfs_path in config/linux.yml
+**“mkdir app” in the path stated in server::container_rootfs_path in config/linux.yml**
 
 then add the line below in warden/root/linux/skeleton/lib/common.sh
 
