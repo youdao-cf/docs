@@ -16,3 +16,12 @@ on centos 6:
     
     # do NOT add '-c' like other component
     bundle exec bin/dea config/dea.yml 
+
+
+## start directory server
+
+    install go
+    
+    ./bin/go install runner
+    
+    ./bin/runner -conf ../config/dea.yml
