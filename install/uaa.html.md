@@ -111,7 +111,7 @@ We recommand to make use of config/uaa.yml. But it is initialized nearly empty, 
 				secret: loginsecret
 				authorized-grant-types: client_credentials
 				authorities: cloud_controller.admin,cloud_controller.read,cloud_controller.write,uaa.admin,scim.read,scim.write,openid,password.write
-				scope: uaa.admin,scim.read,scim.write,openid,password.write
+				scope: cloud_controller.admin,cloud_controller.read,cloud_controller.write,uaa.admin,scim.read,scim.write,openid,password.write
 
 >Please delete all the words within "()", they are just some hints not config.
 
