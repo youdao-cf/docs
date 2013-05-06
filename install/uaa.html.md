@@ -16,6 +16,8 @@ Make sure you have setup nats-server.
 You can choose postgresql or mysql. Please install one before UAA locally or in some server.
 If you use Postgresql, please change all the "ident" to "md5" on column METHOD of the conf file /var/lib/pgsql/data/pg_hba.conf and add a new line "host uaa root 0.0.0.0/0 md5". Restart postgresql service via "service postgresql restart".
 
+### CloudController Database
+Please make sure your CloudController Database has support of *TRANSACTION*. If use mysql, you can use InnoDB as your engine.
 
 ## Setup
 ### Get source code
@@ -99,7 +101,7 @@ We recommand to make use of config/uaa.yml. But it is initialized nearly empty, 
 				access-token-validity: 604800
 			cf:
 				authorized-grant-types: implicit
-				authorities: uaa.admin,scim.read,scim.write,openid,password.write,cloud_controller.admin,cloud_controller.read,cloud_controller.write
+				authorities: uaa.none
 				scope: uaa.admin,scim.read,scim.write,openid,password.write,cloud_controller.admin,cloud_controller.read,cloud_controller.write
 				id: cf
 				resource-ids: none
@@ -110,8 +112,8 @@ We recommand to make use of config/uaa.yml. But it is initialized nearly empty, 
 				id: login
 				secret: loginsecret
 				authorized-grant-types: client_credentials
-				authorities: cloud_controller.admin,cloud_controller.read,cloud_controller.write,uaa.admin,scim.read,scim.write,openid,password.write
-				scope: cloud_controller.admin,cloud_controller.read,cloud_controller.write,uaa.admin,scim.read,scim.write,openid,password.write
+				authorities: cloud_controller.admin,loud_controller.write,uaa.admin,scim.read,scim.write,openid,password.write
+				scope: cloud_controller.admin,cloud_controller.write,uaa.admin,scim.read,scim.write,openid,password.write
 
 >Please delete all the words within "()", they are just some hints not config.
 
