@@ -20,7 +20,7 @@ you can modify other configs to your needs.
 ## setup
 
     git clone
-    cd warden/warden
+    cd warden/warden (branch dev , commit f4cdaba78bae6b6d7aae8f5daa06355775426883)
     bundle install
 
     sudo env PATH=$PATH:. bundle exec rake setup[config/linux.yml]
