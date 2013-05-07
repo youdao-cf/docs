@@ -10,8 +10,8 @@ on centos 6:
 
 ## setup & start
 
-    git clone
-    cd dea_ng
+    git clone    
+    cd dea_ng    （branch dev, commit f8f316eb907b439af8a9465132063b618f34b63e ）
     bundle install
     
     # do NOT add '-c' like other component
