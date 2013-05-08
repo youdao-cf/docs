@@ -12,6 +12,7 @@ on centos 6:
 
     git clone    
     cd dea_ng    （branch dev, commit f8f316eb907b439af8a9465132063b618f34b63e ）
+    git submodule update --init --recursive
     bundle install
     
     # do NOT add '-c' like other component
