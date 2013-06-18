@@ -11,7 +11,7 @@ on centos 6:
 ## setup & start
 
     git clone    
-    cd dea_ng    （branch dev, commit f8f316eb907b439af8a9465132063b618f34b63e ）
+    cd dea_ng    （youdao-cf/dea_ng branch dev, commit ffb8d9e95b8c005d84731a4aec955ad8353b1c7e ）
     git submodule update --init --recursive
     bundle install
     
