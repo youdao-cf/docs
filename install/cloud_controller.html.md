@@ -19,7 +19,7 @@ cloud_controller needs a database, so you'd better setup a mysql server at first
 
 ## setup & start
 
-    git clone
+    git clone  (based on 9d8c2a3bce46869cabcf25a70b7bdb22ed802849)
     git submodule update --recursive --init
     cd cloud_controller_ng
     bundle install
