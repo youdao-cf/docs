@@ -13,10 +13,17 @@ Gorouter is implemented by go languague, so you should install go runtime libs f
 Make sure you have setup nats-server.
 
 ## Setup
+
+### Location
+Git Repo : https://github.com/cloudfoundry/gorouter
+Branch : master
+Commit No: 7982fea352486c493fe1cb0d8514cd6c93a43e5a
+
 ### Get source code
 
     git clone https://github.com/cloudfoundry/gorouter.git
 	cd gorouter
+	git checkout 7982fea352486c493fe1cb0d8514cd6c93a43e5a
 	git submodule update --init
 	
 ### Build router

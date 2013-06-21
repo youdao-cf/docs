@@ -16,12 +16,18 @@ cloud_controller needs a database, so you'd better setup a mysql server at first
 - db: fill with the pre if you are going to use mysql, the protocol string starts with mysql2, like 'mysql2://username:password@host:3306/dbname'
 - uaa: make sure symetric_secret is the uaa jwt secret 
 
+## location
+Git Repo : https://github.com/cloudfoundry/cloud_controller_ng 
+Branch : master
+Commit No: 9d8c2a3bce46869cabcf25a70b7bdb22ed802849
+
 
 ## setup & start
 
-    git clone  (based on 9d8c2a3bce46869cabcf25a70b7bdb22ed802849)
+    git clone https://github.com/cloudfoundry/cloud_controller_ng.git
+    cd cloud_controller_ng 
+	git checkout 9d8c2a3bce46869cabcf25a70b7bdb22ed802849
     git submodule update --recursive --init
-    cd cloud_controller_ng
     bundle install
     bundle exec rake db:migrate
     

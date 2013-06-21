@@ -20,10 +20,16 @@ If you use Postgresql, please change all the "ident" to "md5" on column METHOD o
 Please make sure your CloudController Database has support of *TRANSACTION*. If use mysql, you can use InnoDB as your engine.
 
 ## Setup
+### Location
+Git Repo : https://github.com/cloudfoundry/uaa
+Branch : master
+Commit No: c4c413412572a7979d7a88314b3a17274950fa72
+
 ### Get source code
 
     git clone https://github.com/cloudfoundry/uaa.git
 	cd uaa
+	git checkout c4c413412572a7979d7a88314b3a17274950fa72
 	
 ### Install gems
 
@@ -121,11 +127,17 @@ We recommand to make use of config/uaa.yml. But it is initialized nearly empty, 
 ## Integrate with LDAP
 
 We forked and modified a CloudFoundry module called LoginServer to integrate LDAP authentication. 
+### Location
+Git Repo : https://github.com/youdao-cf/login-server
+Branch : dev_yae
+Commit No: eea770bdf4ff599547b316fdd04a6f7e118541f6
 
 ### Get source code
 
 	git clone https://github.com/youdao-cf/login-server.git
 	cd login-server
+	git checkout dev_yae
+	git checkout eea770bdf4ff599547b316fdd04a6f7e118541f6
 
 ### Config ldap
 

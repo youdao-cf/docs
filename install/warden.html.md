@@ -16,11 +16,18 @@ on centos:
       
 you can modify other configs to your needs.
 
+## location
+Git Repo : https://github.com/youdao-cf/warden
+Branch : dev
+Commit No: f4cdaba78bae6b6d7aae8f5daa06355775426883
 
 ## setup
 
-    git clone
-    cd warden/warden (branch dev , commit f4cdaba78bae6b6d7aae8f5daa06355775426883)
+    git clone https://github.com/youdao-cf/warden.git
+    cd warden
+	git checkout dev
+	git checkout f4cdaba78bae6b6d7aae8f5daa06355775426883
+	cd warden
     bundle install
 
     sudo env PATH=$PATH:. bundle exec rake setup[config/linux.yml]
