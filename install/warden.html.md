@@ -17,9 +17,9 @@ on centos:
 you can modify other configs to your needs.
 
 ## location
-Git Repo : https://github.com/youdao-cf/warden
-Branch : dev
-Commit No: f4cdaba78bae6b6d7aae8f5daa06355775426883
+- Git Repo : https://github.com/youdao-cf/warden
+- Branch : dev
+- Commit No: f4cdaba78bae6b6d7aae8f5daa06355775426883
 
 ## setup
 
@@ -40,5 +40,5 @@ when the above steps are all done,
 
 ## start 
 
-    sudo env PATH=$PATH:. bundel exec rake warden:start[config/linux.yml]
+    sudo env PATH=$PATH:. bundle exec rake warden:start[config/linux.yml]
 

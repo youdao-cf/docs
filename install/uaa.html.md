@@ -21,15 +21,16 @@ Please make sure your CloudController Database has support of *TRANSACTION*. If 
 
 ## Setup
 ### Location
-Git Repo : https://github.com/cloudfoundry/uaa
-Branch : master
-Commit No: c4c413412572a7979d7a88314b3a17274950fa72
+- Git Repo : https://github.com/youdao-cf/uaa.git
+- Branch : dev_yae
+- Commit No: edebb23e43d8c998e8dbcc09b3d173b2a696a7c3
 
 ### Get source code
 
-    git clone https://github.com/cloudfoundry/uaa.git
+    git clone https://github.com/youdao-cf/uaa.git
 	cd uaa
-	git checkout c4c413412572a7979d7a88314b3a17274950fa72
+	git checkout dev_yae
+	git checkout edebb23e43d8c998e8dbcc09b3d173b2a696a7c3
 	
 ### Install gems
 
@@ -45,7 +46,7 @@ Comment line 40 as
 
 ### Build UAA
 	
-	mvn install
+	mvn clean package -DskipTests=true
 
 ### Create uaa.pid
 
@@ -128,9 +129,9 @@ We recommand to make use of config/uaa.yml. But it is initialized nearly empty, 
 
 We forked and modified a CloudFoundry module called LoginServer to integrate LDAP authentication. 
 ### Location
-Git Repo : https://github.com/youdao-cf/login-server
-Branch : dev_yae
-Commit No: eea770bdf4ff599547b316fdd04a6f7e118541f6
+- Git Repo : https://github.com/youdao-cf/login-server
+- Branch : dev_yae
+- Commit No: eea770bdf4ff599547b316fdd04a6f7e118541f6
 
 ### Get source code
 

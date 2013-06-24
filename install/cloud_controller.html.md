@@ -17,9 +17,9 @@ cloud_controller needs a database, so you'd better setup a mysql server at first
 - uaa: make sure symetric_secret is the uaa jwt secret 
 
 ## location
-Git Repo : https://github.com/cloudfoundry/cloud_controller_ng 
-Branch : master
-Commit No: 9d8c2a3bce46869cabcf25a70b7bdb22ed802849
+- Git Repo : https://github.com/cloudfoundry/cloud_controller_ng 
+- Branch : master
+- Commit No: 9d8c2a3bce46869cabcf25a70b7bdb22ed802849
 
 
 ## setup & start

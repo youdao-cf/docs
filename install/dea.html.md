@@ -9,9 +9,9 @@ on centos 6:
     domain: vcap.me
 
 ## location
-Git Repo : https://github.com/youdao-cf/dea_ng 
-Branch : dev
-Commit No: ffb8d9e95b8c005d84731a4aec955ad8353b1c7e
+- Git Repo : https://github.com/youdao-cf/dea_ng 
+- Branch : dev
+- Commit No: ffb8d9e95b8c005d84731a4aec955ad8353b1c7e
 	
 ## setup & start
 
